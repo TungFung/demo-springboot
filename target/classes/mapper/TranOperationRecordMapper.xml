@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.example.dao.mapper.TranOperationRecordMapper">
+  <resultMap id="BaseResultMap" type="com.example.dao.model.TranOperationRecord">
+    <!--
+      WARNING - @mbg.generated
+    -->
+    <id column="REQUEST_ID" jdbcType="VARCHAR" property="requestId" />
+    <result column="REQUEST_PARAM" jdbcType="VARCHAR" property="requestParam" />
+    <result column="OMS_RESULT" jdbcType="VARCHAR" property="omsResult" />
+    <result column="RISK_RESULT" jdbcType="VARCHAR" property="riskResult" />
+    <result column="IS_TRY" jdbcType="DECIMAL" property="isTry" />
+    <result column="BIZ_TYPE" jdbcType="VARCHAR" property="bizType" />
+    <result column="OPER_TYPE" jdbcType="VARCHAR" property="operType" />
+    <result column="CREATE_TIME" jdbcType="TIMESTAMP" property="createTime" />
+    <result column="UPDATE_TIME" jdbcType="TIMESTAMP" property="updateTime" />
+  </resultMap>
+</mapper>
